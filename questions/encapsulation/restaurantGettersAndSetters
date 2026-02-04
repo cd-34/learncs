@@ -1,0 +1,25 @@
+public class Restaurant {
+    private String name;
+    private int capacity;
+
+    public Restaurant(String setName, int setCapacity) {
+        assert setName != null && setCapacity > 0;
+        name = setName;
+        capacity = setCapacity;
+    }
+
+    public String getName() {
+        assert name != null;
+        return name;
+    }
+
+    public int getCapacity() {
+        assert capacity > 0;
+        return capacity;
+    }
+
+    public void setCapacity(int setCapacity) {
+        assert setCapacity > 0;
+        capacity = setCapacity;
+    }
+}

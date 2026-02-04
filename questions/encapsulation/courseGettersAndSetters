@@ -1,0 +1,23 @@
+public class Course {
+    private String name;
+    private int enrollment;
+
+    public Course(String setName, int setEnrollment) {
+        assert setEnrollment >= 0 && setName != null
+        name = setName;
+        enrollment = setEnrollment;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setEnrollment(int setEnrollment) {
+        assert setEnrollment >= 0;
+        enrollment = setEnrollment;
+    }
+
+    public int getEnrollment() {
+        return enrollment;
+    }
+}

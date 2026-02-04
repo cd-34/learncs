@@ -1,0 +1,18 @@
+public class SimpleArrayList {
+    private Ojbect[] array;
+
+    public SimpleArrayList(Object[] setArray) {
+        assert setArray != null;
+        array = setArray;
+    }
+
+    public Object get(int index) {
+        assert index >= 0 && index < array.length;
+        return array[index];
+    }
+
+    public void set(int index, Object setArray) {
+        assert index >= 0 && index < array.length;
+        array[index] = setArray;
+    }
+}
