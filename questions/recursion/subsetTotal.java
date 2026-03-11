@@ -12,6 +12,6 @@ boolean subsetTotal(int[] nums, int total, int start) {
         || subsetTotal(nums, total, start + 1);
 }
 
-boolean subsetTotal(int[] nbums, int total) {
+boolean subsetTotal(int[] nums, int total) {
     return subsetTotal(nums, total, 0);
 }
